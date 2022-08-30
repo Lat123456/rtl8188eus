@@ -154,6 +154,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE(0x07B8, 0x8179), .driver_info = RTL8188E}, /* TP-Link */
 	{USB_DEVICE(0x0BDA, 0x8179), .driver_info = RTL8188E}, /* Abocom - Abocom */
 	{USB_DEVICE(0x2357, 0x010c), .driver_info = RTL8188E}, /* TP-WL722n v2/v3/v4 */
+	{USB_DEVICE(0x2357, 0x0111), .driver_info = RTL8188E}, /* TP-Link TL-WN727N v5.2 */
 	{USB_DEVICE(0x0DF6, 0x0076), .driver_info = RTL8188E}, /* Sitecom N150 v2 */ 
 	{USB_DEVICE(0x2001, 0x330F), .driver_info = RTL8188E}, /* DLink DWA-125 REV D1 */ 
 	{USB_DEVICE(0x2001, 0x3310), .driver_info = RTL8188E}, /* Dlink DWA-123 REV D1 */ 
